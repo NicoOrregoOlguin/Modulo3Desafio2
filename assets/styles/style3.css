@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    font-family: 'Arial', sans-serif;
+}
+
+.password-container {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+    margin: 40px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+select {
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #74ebd5;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #acb6e5;
+}
+
+#mensajePassword {
+    color: red;
+    margin-top: 10px;
+}
